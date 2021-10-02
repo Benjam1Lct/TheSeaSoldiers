@@ -1,0 +1,30 @@
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:300);
+
+
+/* Sticky footer position and size
+-------------------------------------------------- */
+
+/* Taller footer on small screens */
+
+
+/* Sticky footer style and color
+-------------------------------------------------- */
+.footer {
+  position: absolute;
+  bottom: auto;
+  bottom: 0;
+  min-width: 100%;
+}
+
+footer {
+  padding-top: 1%;
+  background-color: #292c2f;
+  color: #bbb;
+}
+
+footer h5{
+  font-size: 120%;
+}
+
+
+/* Credits: https://www.codeply.com/p/EJd6H4Ejyi */

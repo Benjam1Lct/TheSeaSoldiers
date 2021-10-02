@@ -1,0 +1,48 @@
+.donate h5{
+  margin-top: 5%;
+  text-align: center;
+  font-size: 200%;
+  font-family: 'Seaweed Script', cursive;
+}
+
+.donate p {
+  text-align: center;
+  font-size: 22px;
+  font-family: 'Nunito', sans-serif bold;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(89, 89, 89);
+  transition: 0.2s;
+}
+
+a:hover {
+  color: inherit;
+}
+
+.share{
+  text-align: center;
+  font-size: 120%;
+  font-family: 'Nunito', sans-serif bold;
+}
+
+@media (pointer: coarse) and (hover: none) {
+  iframe {
+    min-width: 90%;
+    min-height: auto;
+  }
+  * {
+    font-size: 26px;
+  }
+  .donate h5 {
+    font-size: 40px;
+  }
+  .donate p {
+    font-size: 26px;
+  }
+  .container-card  {
+    min-width: 60%;
+    min-height: 500%;
+  }
+}
