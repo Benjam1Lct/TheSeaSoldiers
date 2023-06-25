@@ -36,7 +36,6 @@ html {
  transition: 0.3s ease-in-out;
 
  &:before {
-  
   position: absolute;
   top: 0;
   left: -100vw;
